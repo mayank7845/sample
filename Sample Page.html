@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sample Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body {
+			height: 100%;
+		}
+		main {
+			display: grid;
+			grid-template-rows: auto auto auto;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 30px;
+			column-gap: 50px;
+			padding: 20px;
+		}
+		.header {
+			grid-column: 1/-1;
+		}
+		.footer {
+			grid-column: 1/4;
+		}
+		.heading-1 {
+			font-family: sans-serif;
+			text-align: center;
+			font-size: 40px;
+		}
+		.paragraph-1 {
+			font-family: sans-serif;
+			text-align: center;
+			font-size: 30px;
+		}
+		.header-heading, .header-paragraph {
+			margin: 0;
+		}
+		.Vata-imbalance-div, .Pitta-imbalance-div, .Kapha-imbalance-div {
+			background-color: #fbfbfb;
+			padding: 30px;
+			border-radius: 6px;
+		}
+		.Vata_imbalance_large-image, .Pitta_imbalance_large-image, .Kapha_imbalance_large-image{
+			text-align: center;
+		}
+		.Vata-imbalance-paragraph {
+			color: #85634e;
+			font-size: 25px;
+			font-family: sans-serif;
+		}
+		.Pitta_imbalance-paragraph {
+			color: #feba0c;
+			font-size: 25px;
+			font-family: sans-serif;
+		}
+		.Kapha_imbalance-paragraph {
+			color: #75b4c5;
+			font-size: 25px;
+			font-family: sans-serif;
+		}
+		.Vata-imbalance, .Pitta-imbalance, .Kapha-imbalance {
+			display: grid;
+			grid-template-rows: auto auto auto auto;
+			grid-template-columns: repeat(1, 1fr);
+			grid-gap: 10px;
+			column-gap: 50px;
+			padding: 5px;
+		}
+		.Vata-imbalance-text, .Pitta-imbalance-text, .Kapha-imbalance-text {
+			margin-left: 70px;
+			margin-top: -40px;
+			font-size: 20px;
+			font-family: sans-serif;
+		}
+		.footer-btn {
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<div class="header">
+		<div class="header-heading"><p class="heading-1"><b>Take the First Step</b></p></div>
+		<div class="header-paragraph"><p class="paragraph-1">Identity your metabolic type (dosha) to restore you metabolic health</p></div>
+	</div>
+		<div class="Vata-imbalance-div">
+				<div class="Vata_imbalance_large-image"><img src="Vata_imbalance_large.webp" width="80px" height="80px">
+					<p class="Vata-imbalance-paragraph"><b>Vata imbalance</b></p></div>
+					<hr size="2" width="100%" color="#e9ebee"><br>
+					<div class="Vata-imbalance">
+						<div><img src="C:\Users\DELL\OneDrive\Desktop\tshirts\Joint_pain.webp" width="50px" height="50px"><div class="Vata-imbalance-text">Joint Pain</div></div>
+						<div><img src="C:\Users\DELL\OneDrive\Desktop\tshirts\Joint_pain.webp" width="50px" height="50px"><div class="Vata-imbalance-text">Low metabolism</div></div>
+						<div><img src="C:\Users\DELL\OneDrive\Desktop\tshirts\Joint_pain.webp" width="50px" height="50px"><div class="Vata-imbalance-text">Disturbed sleep</div></div>
+						<div><img src="C:\Users\DELL\OneDrive\Desktop\tshirts\Joint_pain.webp" width="50px" height="50px"><div class="Vata-imbalance-text">Lack of focus</div></div>
+					</div>
+			</div>
+			<div class="Pitta-imbalance-div">
+				<div class="Pitta_imbalance_large-image"><img src="Pitta_imbalance_large.webp" width="80px" height="80px">
+				<p class="Pitta_imbalance-paragraph"><b>Pitta imbalance</b></p></div>
+				<hr size="2" width="100%" color="#e9ebee"><br>
+			<div class="Pitta-imbalance">
+				<div><img src="C:\Users\DELL\OneDrive\Desktop\tshirts\Digestive_problem.webp" width="50px" height="50px"><div class="Pitta-imbalance-text">Hair loss</div></div>
+				<div><img src="C:\Users\DELL\OneDrive\Desktop\tshirts\Digestive_problem.webp" width="50px" height="50px"><div class="Pitta-imbalance-text">Digestive problems</div></div>
+				<div><img src="C:\Users\DELL\OneDrive\Desktop\tshirts\Digestive_problem.webp" width="50px" height="50px"><div class="Pitta-imbalance-text">Excessive thirst</div></div>
+				<div><img src="C:\Users\DELL\OneDrive\Desktop\tshirts\Digestive_problem.webp" width="50px" height="50px"><div class="Pitta-imbalance-text">Short tempered</div></div>
+				</div>
+			</div>
+		<div class="Kapha-imbalance-div">
+			<div class="Kapha_imbalance_large-image"><img src="Kapha_imbalance_large.webp" width="80px" height="80px">
+				<p class="Kapha_imbalance-paragraph"><b>Kapha imbalance</b></p></div>
+				<hr size="2" width="100%" color="#e9ebee"><br>
+				<div class="Vata-imbalance">
+						<div class="DIV6"><img src="C:\Users\DELL\OneDrive\Desktop\tshirts\Low_energy.webp"><div class="Kapha-imbalance-text">Low energy</div></div>
+						<div class="DIV7"><img src="C:\Users\DELL\OneDrive\Desktop\tshirts\Low_energy.webp"><div class="Kapha-imbalance-text">Loss of appetite</div></div>
+						<div class="DIV8"><img src="C:\Users\DELL\OneDrive\Desktop\tshirts\Low_energy.webp"><div class="Kapha-imbalance-text">Excessive sleeping</div></div>
+						<div class="DIV9"><img src="C:\Users\DELL\OneDrive\Desktop\tshirts\Low_energy.webp"><div class="Kapha-imbalance-text">Respiratory Problems</div></div>
+					</div>
+			</div>
+		<div class="footer">
+			<div class="header-heading"><p class="heading-1"><b>Manage high cholestrol</b></p></div><br>
+			<div class="footer-btn"><button style="border-radius: 6px;background-color: #ee9a3c;"><p style="font-size: 20px;padding: 15px;color: white;"><b>FIND YOUR DOSHA<b></p></button></div>
+		</div>
+	</main>
+</body>
+</html>
